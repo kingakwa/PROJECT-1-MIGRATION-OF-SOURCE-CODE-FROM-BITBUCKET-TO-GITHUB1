@@ -16,8 +16,7 @@ Before starting, ensure you have:
 - Basic knowledge of CI/CD pipelines
 
  # Project Visualization:
- <img width="531" alt="migration-datat center" src="https://github.com/user-attachments/assets/c691c056-8adb-43fc-94e5-14abaad501bd" />
-
+<img width="531" alt="Image" src="https://github.com/user-attachments/assets/fe2a1db7-157b-41b5-89a2-0f0365ebce85" />
 # Step-by-Step Guide
 ## On GitHub, create a new empty repository
 - Go to GitHub
