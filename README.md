@@ -29,8 +29,7 @@ Before starting, ensure you have:
 - Navigate to your Bitbucket repository Example "Mirroring-Repo" Create an access token under `Repository settings > Security > Access tokens`
  - Create Repository Access Token with selecting all the "READ" Permission
   - Copy the last Access token Example [{ "https://x-token-auth:ATCTT3xFfGN0TSG5xC5PMZex1aEWC2wMY7j1SiYTwLpR7WTpHQ4DJ1oRfevWbd-LVn9bRzmr3csDN4DEjT57KYlsxWcKXnk5zW17DLJ9ssRcOFFwegxzPTMS-MAfumre3yDmXup-z1nHb8XSRGI9N_McR6FRyHArzIoPIWiJSk6cQfYqfAkIw_w=65FC4ty63@bitbucket.org/demo-migration12/solstice_demo.git" }](https://bitbucket.org/solavisetech-migration/aws-etl-tf-python-project/src/master/)
-     <img width="902" alt="acccess-taken 1" src="https://github.com/user-attachments/assets/58b6e78c-a18b-4d61-9d65-909456ddfdfc" />
-    
+<img width="902" alt="Image" src="https://github.com/user-attachments/assets/aece45e6-4c91-485a-9a56-4e6fd7ad2687" />    
 - Navigate To Github and Import the Repository while keeping the same name "Mirroring-Repo"
      - To navigate to GitHub and import a repository while keeping the same name "Mirroring-Repo", follow these steps:
        
@@ -46,50 +45,39 @@ Before starting, ensure you have:
      - In the "Repository Name" field, type "Mirroring-Repo" to maintain the same name.
      - Choose your preferred visibility (Public or Private).
      - Click "Begin Import" and wait for the process to complete.
-       <img width="640" alt="importing repo" src="https://github.com/user-attachments/assets/d034d6aa-ba05-4dfe-8d3f-8091cd1b4885" />
-
+      <img width="640" alt="Image" src="https://github.com/user-attachments/assets/2b141862-190f-4b89-8e7e-57c4d114c841" />
 
  
   - On Bitbucket, Enable Pipelines under Repository settings > Pipelines > Settings
-    <img width="920" alt="enable pipeline" src="https://github.com/user-attachments/assets/702872be-05f7-499d-855a-79fc47a8ba29" />
-
+      <img width="920" alt="Image" src="https://github.com/user-attachments/assets/fa17fba2-1fac-489e-8c3a-a61b7dd48387" />
   - On Bitbucket, Generate keys under Repository settings > Pipelines > SSH keys. Copy the public key to clipboard
-    <img width="918" alt="copy public key" src="https://github.com/user-attachments/assets/216bf37f-8df1-40d6-87df-00ba6ea417b6" />
+    <img width="918" alt="Image" src="https://github.com/user-attachments/assets/76f97f39-dd11-4b00-8056-ac5983003a67" />
 
   - On the same page, under Known hosts enter github.com as the Host address and then click Fetch followed by Add host
-    <img width="914" alt="github com" src="https://github.com/user-attachments/assets/7acf3c1b-2e88-4837-9952-4db482454f29" />
+   <img width="914" alt="Image" src="https://github.com/user-attachments/assets/64680c3e-4db6-48d1-b0bd-378692c1450e" />
 
   - On GitHub, add the public key under Settings > Security > Deploy keys > Add deploy key. Tick the checkbox to Allow write access
-   <img width="758" alt="image" src="https://github.com/user-attachments/assets/dca749e2-21b0-4c19-a48a-c2c7d93f3266" />
-
-    
-    ![Screen Shot 2024-01-04 at 00 35 39](https://github.com/asaphdanchi/Mirror-and-synchronizing/assets/112729006/2545afe7-52c3-4934-a181-6a1a9b06e447)
+  <img width="758" alt="Image" src="https://github.com/user-attachments/assets/38a6bb39-deea-47ed-9c54-0260488e453f" />
     
   - On Bitbucket, add the public key under Repository settings > Security > Access keys > Add key
-    
-    <img width="767" alt="add access key" src="https://github.com/user-attachments/assets/4dc06e4b-4fbf-4261-a508-0ffe6d010c8f" />
+  - <img width="767" alt="Image" src="https://github.com/user-attachments/assets/7fb246c1-ba06-43c3-bf4d-e6f921a2710e" />
   
   - On Bitbucket, Create an access tokens under Repository settings > Security > Access tokens. Create Repository Access Token, give a name with selecting all the "READ" Permission and tick the checkbox of Webhooks
   - Copy the first Token Example { "ATCTT3xFfGN0TSG5xC5PMZex1aEWC2wMY7j1SiYTwLpR7WTpHQ4DJ1oRfevWbd-LVn9bRzmr3csDN4DEjT57KYlsxWcKXnk5zW17DLJ9ssRcOFFwegxzPTMS-MAfumre3yDmXup-z1nHb8XSRGI9N_McR6FRyHArzIoPIWiJSk6cQfYqfAkIw_w=65FC4ty63" }
     
-  <img width="890" alt="image" src="https://github.com/user-attachments/assets/76d1a024-74a8-4b19-b129-26fe3d2d4cb8" />
-
+<img width="890" alt="Image" src="https://github.com/user-attachments/assets/ee02de26-507f-4890-8ba6-9d9de95a3458" />
   - On Bitbucket, Create a Repository variables under Repository Settings > Pipeline > Repository variable. Naming the variable Example " BITBUCKET_VARIABLE"
     
-    <img width="931" alt="Repository variable" src="https://github.com/user-attachments/assets/a8c04cce-4093-45c7-832c-b90e8e91e111" />
-    
+<img width="931" alt="Image" src="https://github.com/user-attachments/assets/0f947334-09bb-4329-9a59-462157cc2c3b" />    
   - On Github, At the top right click on your Profile, Scroll down at the bottom click on settings
     
-    <img width="919" alt="settings" src="https://github.com/user-attachments/assets/448e7095-3818-40f1-8f60-4ddbde50aeaf" />
-  
+<img width="919" alt="Image" src="https://github.com/user-attachments/assets/f4bdbba7-fecb-46b2-8b10-2867b899eb94" />  
   - At the bottom left of the page click Developer Settings, Create a Personal access tokens Under Personal access tokens > Token (classic) > Generate new token > Generate new token (classic)
     
-    <img width="931" alt="generate a new token" src="https://github.com/user-attachments/assets/68bcfc49-7a9f-44f7-a138-130c8e678cac" />
-    
+<img width="931" alt="Image" src="https://github.com/user-attachments/assets/32e92700-a030-4107-a36f-16621db568ea" />    
   - Check the "repo" box, "Workflow" box and the "write:package" box. Genarate Token and copy the token Example "ghp_zY5GxaeytuAZlR4tPcwqovPz7c2ZVy1kdfg"
    
-    <img width="929" alt="githubaccess-taken" src="https://github.com/user-attachments/assets/55e25caf-5962-4a3a-b896-79561f6341cd" />
-
+<img width="929" alt="Image" src="https://github.com/user-attachments/assets/f0ced948-f117-4d7d-a773-0c618288ffe4" />
   
   - On Bitbucket, Create a Repository variables with the Access Token from Github under Repository Settings > Pipeline > Repository variable. Naming the variable Example "GITHUB_VARIABLE"
 
@@ -114,11 +102,9 @@ On your code replace the "$BITBUCKET_VARIABLE" and "$GITHUB_VARIABLE" with your 
 # Run the pipeline in Bitbucket
 -On the Bitbucket, select pipeline and select `Run piple` line at the right corner and watich the pipeline run to success with a green indication that it was successful
 
-<img width="953" alt="migration successful" src="https://github.com/user-attachments/assets/07c2ab89-1414-424e-9c9a-07e4d800fa7b" />
-
+<img width="953" alt="Image" src="https://github.com/user-attachments/assets/e5525c8d-acdd-45e4-bf6f-1a07c682b3b5" />
 -Pipe line successful after two attempt 
-![Screenshot 2025-02-05 064748](https://github.com/user-attachments/assets/1da1bd2b-91a2-4d83-9613-2de92369c9d3)
-
+<img width="944" alt="Image" src="https://github.com/user-attachments/assets/f525a19c-b4f0-4b04-8de3-6c845283b949" />
 -Any change on the main repo automatically triger and synronise with the gitHub repo.
 
 ## Test the Pipeline
