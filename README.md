@@ -76,7 +76,7 @@ Before starting, ensure you have:
   - On Github, At the top right click on your Profile, Scroll down at the bottom click on settings
     
 <img width="919" alt="Image" src="https://github.com/user-attachments/assets/f4bdbba7-fecb-46b2-8b10-2867b899eb94" />  
-  - At the bottom left of the page click Developer Settings, Create a Personal access tokens Under Personal access tokens > Token (classic) > Generate new token > Generate new token (classic)
+  - At the bottom left of the page click Developer Settings, Create a Personal access tokens Under Personal access tokens > Token (classic) > Generate new token > Generate new token (classic)> copy the token and past 
     
 <img width="931" alt="Image" src="https://github.com/user-attachments/assets/32e92700-a030-4107-a36f-16621db568ea" />    
   - Check the "repo" box, "Workflow" box and the "write:package" box. Genarate Token and copy the token Example "ghp_zY5GxaeytuAZlR4tPcwqovPz7c2ZVy1kdfg"
